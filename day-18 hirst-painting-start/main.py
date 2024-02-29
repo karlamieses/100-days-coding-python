@@ -14,6 +14,7 @@ t.colormode(255)
 painting.hideturtle()
 painting.penup()
 
+#sample
 
 def draw_painting(vertical):
     painting.goto(-225, vertical)
