@@ -12,18 +12,30 @@ class Snake:
     def __init__(self):
         self.segments = []
         self.x_coordinate = 0
+        self.y_coordinate = 0
         self.create_snake()
         self.snake_head = self.segments[0]
 
     def create_snake(self):
         """Creates the segments of square that builds the snake"""
         for _ in range(3):
-            new_segment = Turtle(shape="square")
-            new_segment.penup()
-            new_segment.color("white")
-            new_segment.goto(self.x_coordinate, 0)
+            self.add_segment(self.x_coordinate, self.y_coordinate)
             self.x_coordinate -= 20
-            self.segments.append(new_segment)
+
+    def add_segment(self, x_position, y_position):
+        new_segment = Turtle(shape="square")
+        new_segment.penup()
+        new_segment.color("white")
+        new_segment.goto(x_position, y_position)
+        self.segments.append(new_segment)
+
+    def extend_snake(self):
+        """When the snake eats the food,the snake should be longer"""
+        add_segment_in_snake = self.segments[-1].position()
+        last_segment_x_cor = add_segment_in_snake[0]
+        last_segment_y_cor = add_segment_in_snake[1]
+        self.add_segment(last_segment_x_cor, last_segment_y_cor)
+
 
     def move(self):
         """This function takes the x and y coordinate of the last position of the segments until 0 (not inclusive)
@@ -53,5 +65,5 @@ class Snake:
 
     def left(self):
         """Rule, if snake is facing Left the snake cannot move Right"""
-        if self.snake_head.heading() != LEFT:
+        if self.snake_head.heading() != RIGHT:
             self.snake_head.setheading(LEFT)
