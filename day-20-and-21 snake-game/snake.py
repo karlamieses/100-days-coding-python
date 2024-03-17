@@ -36,7 +36,6 @@ class Snake:
         last_segment_y_cor = add_segment_in_snake[1]
         self.add_segment(last_segment_x_cor, last_segment_y_cor)
 
-
     def move(self):
         """This function takes the x and y coordinate of the last position of the segments until 0 (not inclusive)
             so the squares or segments follow each other and move like snakes
