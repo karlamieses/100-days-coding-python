@@ -47,6 +47,14 @@ class Snake:
 
         self.snake_head.forward(MOVE_DISTANCE)
 
+    def reset_snake(self):
+        for seg in self.segments:
+            seg.goto(1000, 1000)
+
+        self.segments.clear()
+        self.create_snake()
+        self.snake_head = self.segments[0]
+
     def up(self):
         """Rule, if snake is facing Up the snake cannot move Down"""
         if self.snake_head.heading() != DOWN:
