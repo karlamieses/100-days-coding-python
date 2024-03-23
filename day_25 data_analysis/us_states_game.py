@@ -19,9 +19,7 @@ while len(guesses_state) < 50:
                                   prompt="What states do you know?").title()
 
     if user_input == "Exit":
-        for state in guesses_state:
-            if state in us_states_list:
-                us_states_list.remove(state)
+        _ = [us_states_list.remove(state) for state in guesses_state if state in us_states_list]
 
         missing_state_csv = pandas.DataFrame(us_states_list)
         missing_state_csv.to_csv("missing_states.csv")
