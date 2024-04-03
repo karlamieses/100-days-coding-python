@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="629a5819-e5a5-434f-a257-7b754a76241a" name="Changes" comment="Password Manager">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/100 days of python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2d3WAkVMBAAVUozBRsepuR8RXjY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.ball.executor": "Run",
+    "Python.main-2.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mile_to_km_converter.executor": "Run",
+    "Python.paddle.executor": "Run",
+    "Python.players.executor": "Run",
+    "Python.scoreboard.executor": "Run",
+    "Python.snake.executor": "Run",
+    "Python.us_states_game.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "maintenance",
+    "last_opened_file_path": "/Users/karlamieses/Desktop/python-100-days-coding/100-days-coding-python",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day_26_NATO_alphabet_project" />
+      <recent name="$PROJECT_DIR$/day_25 data_analysis" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="629a5819-e5a5-434f-a257-7b754a76241a" name="Changes" comment="" />
+      <created>1709237101525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709237101525</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Created a GUI painting with the Turtle package">
+      <option name="closed" value="true" />
+      <created>1709246160555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709246160556</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created a GUI painting with the Turtle package">
+      <option name="closed" value="true" />
+      <created>1709250554217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709250554217</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Turtle Race">
+      <option name="closed" value="true" />
+      <created>1710019193453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710019193453</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Snake Race Part - I">
+      <option name="closed" value="true" />
+      <created>1710151415438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710151415438</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Snake Race Part - II">
+      <option name="closed" value="true" />
+      <created>1710354700385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710354700385</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Renaming folder">
+      <option name="closed" value="true" />
+      <created>1710355727229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710355727229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Pong Game">
+      <option name="closed" value="true" />
+      <created>1710711855681</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710711855681</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Pong Game">
+      <option name="closed" value="true" />
+      <created>1710785501849</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710785501849</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Open(), Replace(), Strip(), readlines()">
+      <option name="closed" value="true" />
+      <created>1710950006596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710950006596</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Handling csv files with Pandas">
+      <option name="closed" value="true" />
+      <created>1711200438896</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711200438896</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Nato Game">
+      <option name="closed" value="true" />
+      <created>1711224943199</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711224943199</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Nato Game">
+      <option name="closed" value="true" />
+      <created>1711224952561</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711224952561</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Mile To KM converter">
+      <option name="closed" value="true" />
+      <created>1711622736669</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711622736669</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Pomodoro Timer">
+      <option name="closed" value="true" />
+      <created>1711643730375</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711643730375</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Password Manager">
+      <option name="closed" value="true" />
+      <created>1712172656961</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712172656961</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Created a GUI painting with the Turtle package" />
+    <MESSAGE value="Turtle Race" />
+    <MESSAGE value="Snake Race Part - I" />
+    <MESSAGE value="Snake Race Part - II" />
+    <MESSAGE value="Renaming folder" />
+    <MESSAGE value="Pong Game" />
+    <MESSAGE value="Open(), Replace(), Strip(), readlines()" />
+    <MESSAGE value="Handling csv files with Pandas" />
+    <MESSAGE value="Nato Game" />
+    <MESSAGE value="Mile To KM converter" />
+    <MESSAGE value="Pomodoro Timer" />
+    <MESSAGE value="Password Manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Password Manager" />
+  </component>
+</project>
