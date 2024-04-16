@@ -1,4 +1,4 @@
-import random
+import json
 import string
 import pyperclip
 from tkinter import *
@@ -28,25 +28,53 @@ def save_password():
     get_username_email = email_username_entry.get()
     get_password = password_entry.get()
 
-    print(len(get_website))
-    print(len(get_password))
-    print(len(get_username_email))
+    # Creates the dictionary that is going to be appended into the dictionary
+    # that will be used to create the Json file
+    new_data = {
+        get_website: {
+            "email": get_username_email,
+            "password": get_password
+        }
+    }
 
     if len(get_website) == 0 or len(get_password) == 0 or len(get_username_email) == 0:
         messagebox.showinfo(title="Oops!", message="Please don't leave any of the fields empty")
-
     else:
-        is_ok = messagebox.askokcancel(title=get_website, message=f"These are the details entered: \n"
-                                                                  f"Email: {get_username_email}\n"
-                                                                  f"Password: {get_password} \n"
-                                                                  f"Is this ok to save? ")
+        try:
+            with open("data.json", mode="r") as file:
+                # Reading the Json file and convert the reading into a dictionary
+                data = json.load(file)
+        except FileNotFoundError:
+            with open("data.json", mode="w") as file:
+                json.dump(new_data, file, indent=4)
+        else:
+            # Updating the data dictionary by appending the new_data dictionary
+            data.update(new_data)
 
-        if is_ok:
-            with open("data.txt", mode="a") as file:
-                file.write(f"{get_website} | {get_username_email} | {get_password}\n")
+            with open("data.json", mode="w") as file:
+                json.dump(data, file, indent=4)
 
+        finally:
             website_label_entry.delete(0, "end")
             password_entry.delete(0, "end")
+
+
+def search_password():
+    try:
+        get_website = website_label_entry.get().title()
+        with open("data.json", mode="r") as file:
+            website_password = json.load(file)
+    except FileNotFoundError:
+        messagebox.showinfo(title="Warning", message="File doesn't exist")
+    else:
+        if get_website in website_password:
+            email = website_password[get_website]["email"]
+            password = website_password[get_website]["email"]
+
+            messagebox.showinfo(title=get_website,
+                                message=f"Email: {email}.\nPassword: {password}")
+        else:
+            messagebox.showinfo(title=get_website, message="Website is empty or that password does not exist")
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -65,8 +93,11 @@ website_label.grid(column=0, row=1)
 
 website_label_entry = Entry()
 website_label_entry.focus()
-website_label_entry.config(width=38)
-website_label_entry.grid(column=1, row=1, columnspan=2)
+website_label_entry.grid(column=1, row=1)
+
+search_button = Button(text="Search", command=search_password)
+search_button.config(width=10)
+search_button.grid(column=2, row=1)
 
 email_username_label = Label(text="Email/Username:")
 email_username_label.grid(column=0, row=2)
