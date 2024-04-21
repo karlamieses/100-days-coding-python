@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1622faba-8dfc-428b-a246-fdf7e57c8171" name="Changes" comment="Missing file">
-      <change afterPath="$PROJECT_DIR$/day_31_app_capstone_project/data/french_words.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31_app_capstone_project/data/words_to_learn.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31_app_capstone_project/images/card_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31_app_capstone_project/images/card_front.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31_app_capstone_project/images/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31_app_capstone_project/images/wrong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31_app_capstone_project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1622faba-8dfc-428b-a246-fdf7e57c8171" name="Changes" comment="Birthday Wisher" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,13 +52,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "full.screen.before.presentation.mode": "true",
-    "git-widget-placeholder": "day__31/app__capstone__project",
+    "git-widget-placeholder": "day__32/email__smtp",
     "last_opened_file_path": "/Users/karlamieses/Desktop/python-100-days-coding/100-days-coding-python",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day_32_automated_email_generator/letter_templates" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/day_26_NATO_alphabet_project" />
       <recent name="$PROJECT_DIR$/day_25 data_analysis" />
@@ -209,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712172656961</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Capstone Project">
+      <option name="closed" value="true" />
+      <created>1713511475146</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713511475146</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Birthday Wisher">
+      <option name="closed" value="true" />
+      <created>1713710222936</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713710222936</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -241,6 +249,7 @@
     <MESSAGE value="Pomodoro Timer" />
     <MESSAGE value="Password Manager" />
     <MESSAGE value="Error Handling. Try/Except blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error Handling. Try/Except blocks" />
+    <MESSAGE value="Birthday Wisher" />
+    <option name="LAST_COMMIT_MESSAGE" value="Birthday Wisher" />
   </component>
 </project>
