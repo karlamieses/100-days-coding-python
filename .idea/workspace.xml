@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1622faba-8dfc-428b-a246-fdf7e57c8171" name="Changes" comment="Missing file">
-      <change afterPath="$PROJECT_DIR$/day_32_automated_email_generator/birthdays.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32_automated_email_generator/letter_templates/letter1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32_automated_email_generator/letter_templates/letter2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32_automated_email_generator/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32_automated_email_generator/quotes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_29_password_manager/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/day_29_password_manager/data.json" afterDir="false" />
-    </list>
+    <list default="true" id="1622faba-8dfc-428b-a246-fdf7e57c8171" name="Changes" comment="Birthday Wisher" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713511475146</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Birthday Wisher">
+      <option name="closed" value="true" />
+      <created>1713710222936</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713710222936</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -249,6 +249,7 @@
     <MESSAGE value="Pomodoro Timer" />
     <MESSAGE value="Password Manager" />
     <MESSAGE value="Error Handling. Try/Except blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error Handling. Try/Except blocks" />
+    <MESSAGE value="Birthday Wisher" />
+    <option name="LAST_COMMIT_MESSAGE" value="Birthday Wisher" />
   </component>
 </project>

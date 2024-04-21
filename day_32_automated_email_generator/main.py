@@ -4,7 +4,7 @@ import datetime as dt
 import pandas
 
 sender_email = "pythonkarla@gmail.com"
-sender_password = "smna fygs oaar fxmt"
+sender_password = ""
 letter_options = ["letter1", "letter2"]
 letter_template = ""
 
