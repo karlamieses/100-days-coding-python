@@ -1,0 +1,13 @@
+import requests
+
+parameters = {
+    "amount": 10,
+    "type": "boolean"
+}
+response = requests.get(url="https://opentdb.com/api.php", params=parameters).json()
+
+question_data = response["results"]
+
+print(question_data)
+
+[{'type': 'boolean', 'difficulty': 'medium', 'category': 'Geography', 'question': 'The surface area of Russia is slightly larger than that of the dwarf planet Pluto.', 'correct_answer': 'True', 'incorrect_answers': ['False']}, {'type': 'boolean', 'difficulty': 'hard', 'category': 'Celebrities', 'question': 'Lady Gaga&#039;s real name is Stefani Joanne Angelina Germanotta.', 'correct_answer': 'True', 'incorrect_answers': ['False']}, {'type': 'boolean', 'difficulty': 'easy', 'category': 'Entertainment: Cartoon &amp; Animations', 'question': 'Bill Cipher in the show &quot;Gravity Falls&quot; is the good guy.', 'correct_answer': 'False', 'incorrect_answers': ['True']}, {'type': 'boolean', 'difficulty': 'easy', 'category': 'Entertainment: Japanese Anime &amp; Manga', 'question': 'No Game No Life first aired in 2014.', 'correct_answer': 'True', 'incorrect_answers': ['False']}, {'type': 'boolean', 'difficulty': 'medium', 'category': 'General Knowledge', 'question': 'Instant mashed potatoes were invented by Canadian Edward Asselbergs in 1962.', 'correct_answer': 'True', 'incorrect_answers': ['False']}, {'type': 'boolean', 'difficulty': 'medium', 'category': 'General Knowledge', 'question': 'Popcorn was invented in 1871 by Frederick W. Rueckheim in the USA where he sold the snack on the streets of Chicago.', 'correct_answer': 'False', 'incorrect_answers': ['True']}, {'type': 'boolean', 'difficulty': 'easy', 'category': 'Entertainment: Video Games', 'question': 'Faust is a playable character in &quot;Guilty Gear Xrd Revelator&quot;.', 'correct_answer': 'True', 'incorrect_answers': ['False']}, {'type': 'boolean', 'difficulty': 'medium', 'category': 'Entertainment: Cartoon &amp; Animations', 'question': 'Donald Duck played the role of Bob Cratchit in Disney&#039;s 1983 adaptation of A Christmas Carol.', 'correct_answer': 'False', 'incorrect_answers': ['True']}, {'type': 'boolean', 'difficulty': 'medium', 'category': 'Science: Mathematics', 'question': 'The proof for the Chinese Remainder Theorem used in Number Theory was NOT developed by its first publisher, Sun Tzu.', 'correct_answer': 'True', 'incorrect_answers': ['False']}, {'type': 'boolean', 'difficulty': 'medium', 'category': 'Entertainment: Music', 'question': 'A Facebook campaign placed Rage Against The Machine&#039;s &quot;Killing in the Name Of&quot; as the UK Christmas Number 1 in 2009.', 'correct_answer': 'True', 'incorrect_answers': ['False']}]
