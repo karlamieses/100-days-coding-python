@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1622faba-8dfc-428b-a246-fdf7e57c8171" name="Changes" comment="Birthday Wisher">
-      <change afterPath="$PROJECT_DIR$/day_34_trivia_game/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34_trivia_game/images/false.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34_trivia_game/images/true.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34_trivia_game/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34_trivia_game/question_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34_trivia_game/quiz_brain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34_trivia_game/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitIgnore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_35_weather_sms_notification/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_35_weather_sms_notification/students.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "full.screen.before.presentation.mode": "true",
-    "git-widget-placeholder": "day__34/trivia__game",
+    "git-widget-placeholder": "day__35/weather__sms",
     "last_opened_file_path": "/Users/karlamieses/Desktop/python-100-days-coding/100-days-coding-python",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
