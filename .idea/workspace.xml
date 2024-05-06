@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1622faba-8dfc-428b-a246-fdf7e57c8171" name="Changes" comment="Habit tracker">
-      <change afterPath="$PROJECT_DIR$/day_38_workout_tracker/main.py" afterDir="false" />
+    <list default="true" id="1622faba-8dfc-428b-a246-fdf7e57c8171" name="Changes" comment="Workout Tracker">
+      <change afterPath="$PROJECT_DIR$/day_39_flight_tracker/data_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_39_flight_tracker/flight_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_39_flight_tracker/flight_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_39_flight_tracker/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_39_flight_tracker/notification_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="11fed6ff-6f2c-48da-9f9f-49d91b81c6e7" name="Removing .env file" comment="Habit tracker">
@@ -48,9 +52,12 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.ball.executor": "Run",
     "Python.data.executor": "Run",
+    "Python.data_manager.executor": "Run",
+    "Python.flight_search.executor": "Run",
     "Python.main-2.executor": "Run",
     "Python.main.executor": "Run",
     "Python.mile_to_km_converter.executor": "Run",
+    "Python.notification_manager.executor": "Run",
     "Python.paddle.executor": "Run",
     "Python.players.executor": "Run",
     "Python.question_model.executor": "Run",
@@ -62,7 +69,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "full.screen.before.presentation.mode": "true",
-    "git-widget-placeholder": "day__38/workout__tracker",
+    "git-widget-placeholder": "day__39/flights__tracker",
     "last_opened_file_path": "/Users/karlamieses/Desktop/python-100-days-coding/100-days-coding-python",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
@@ -259,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714589951636</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Workout Tracker">
+      <option name="closed" value="true" />
+      <created>1714669438075</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714669438076</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -295,6 +310,7 @@
     <MESSAGE value="Working with APIs" />
     <MESSAGE value="Weather forecast" />
     <MESSAGE value="Habit tracker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Habit tracker" />
+    <MESSAGE value="Workout Tracker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workout Tracker" />
   </component>
 </project>
