@@ -59,6 +59,16 @@ class FlightSearch(DataManager, NotificationManager):
                 get_iata_city = price_info["city"]
                 get_iata_code_price = price_info["lowestPrice"]
                 if int(new_flight_price) < int(get_iata_code_price):
-                    # here we need to send SMS
-                    notification_manager = NotificationManager(price=new_flight_price, city=get_iata_city, airport_code=self.get_airport_info,  from_flight_date=self.from_date_flight, to_flight_date=self.return_date_flight, sheety_price=get_iata_code_price)
+                    notification_manager = NotificationManager(price=new_flight_price, city=get_iata_city,
+                                                               airport_code=self.get_airport_info,
+                                                               from_flight_date=self.from_date_flight,
+                                                               to_flight_date=self.return_date_flight,
+                                                               sheety_price=get_iata_code_price)
 
+                    notification_manager.send_sms()
+
+                    sheety_emails = self.alert_all_sheety_user()
+
+                    for email in sheety_emails:
+                        print(f"{email}")
+                        notification_manager.send_email(receiver_email=email)
